@@ -2,3 +2,5 @@ tasks:
   - name: Install Nextflow
     init: curl -s https://get.nextflow.io | bash
     command: sudo mv nextflow /usr/local/bin
+  - name: Install Miniconda
+    init: curl -LO https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh | bash
