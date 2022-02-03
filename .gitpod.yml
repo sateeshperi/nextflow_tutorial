@@ -4,5 +4,7 @@ tasks:
   - name: Install Nextflow
     init: curl -s https://get.nextflow.io | bash
     command: sudo mv nextflow /usr/local/bin
-  - name: Install Miniconda
+  - name: Set Perm
     command: chmod +x envconfig.sh 
+  - name: Install nf-core
+    init: pip install nf-core
