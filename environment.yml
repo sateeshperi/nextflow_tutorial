@@ -9,4 +9,3 @@ dependencies:
   - bcftools
   - multiqc
   - graphviz
-  - nf-core
