@@ -27,10 +27,6 @@ RUN chown -R gitpod:gitpod /opt/conda \
     && chown -R gitpod:gitpod /home/gitpod/.conda \
     && chmod -R 777 /home/gitpod/.conda
 
-# Install Mamba
-RUN source ~/.bashrc
-RUN conda install -y -c conda-forge mamba
-
 # Give back control
 USER root
 
