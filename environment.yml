@@ -1,0 +1,12 @@
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - fastqc
+  - trimmomatic
+  - bwa
+  - samtools
+  - bcftools
+  - multiqc
+  - graphviz
+  - nf-core
