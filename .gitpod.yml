@@ -8,3 +8,5 @@ tasks:
     command: chmod +x envconfig.sh 
   - name: Install nf-core
     init: pip install nf-core
+  - name: Install graphviz
+    init: pip install graphviz
