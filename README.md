@@ -23,3 +23,5 @@ conda activate varcal
 ```bash
 bash data/trim.sh
 ```
+
+### [Nextflow Tutorial - Variant Calling Edition](https://sateeshperi.github.io/nextflow_varcal/)
