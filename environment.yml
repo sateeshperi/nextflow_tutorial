@@ -8,4 +8,3 @@ dependencies:
   - samtools
   - bcftools
   - multiqc
-  - graphviz
