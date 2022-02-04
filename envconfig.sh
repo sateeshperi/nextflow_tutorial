@@ -1,3 +1,6 @@
+conda init bash
+source ~/.bashrc
+
 # Export NXF_OPTS
 unset JAVA_TOOL_OPTIONS
 export NFX_OPTS=$JAVA_TOOL_OPTIONS
