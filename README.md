@@ -6,7 +6,7 @@
 
 Once the pod launches, it will present a VS-Code interface
 
-* To install Mamba and create `varcal` environment based on yml file
+* To create `varcal` environment based on yml file
 ```bash
 bash envconfig.sh
 ```
