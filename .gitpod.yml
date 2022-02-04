@@ -1,7 +1,8 @@
 image: nfcore/gitpod:latest
 
-- name: Install graphviz
-  init: pip install graphviz
+tasks:
+  - name: Install graphviz
+    init: pip install graphviz
 
 vscode:
   extensions: # based on nf-core.nf-core-extensionpack
