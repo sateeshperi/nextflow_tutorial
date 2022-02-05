@@ -10,6 +10,17 @@ Once the pod launches, it will present a VS-Code interface
 ```bash
 bash envconfig.sh
 ```
+>If conda is not available in PATH:
+>
+>```bash
+>conda init bash
+>```
+>
+>```bash
+>source ~/.bashrc
+>```
+>**(Close terminal and open a new terminal if required). You should be able to see `(base)` at the beginning of terminal indicating active conda base environment.**
+
 
 * To download reference genome and raw reads
 ```bash
@@ -23,5 +34,14 @@ conda activate varcal
 ```bash
 bash data/trim.sh
 ```
+
+---
+
+>When executing nextflow if you see `Unable to initialize nextflow environment` error:
+>
+>```bash
+>unset JAVA_TOOL_OPTIONS
+>export NFX_OPTS=$JAVA_TOOL_OPTIONS
+>```
 
 ### [Nextflow Tutorial - Variant Calling Edition](https://sateeshperi.github.io/nextflow_varcal/)
