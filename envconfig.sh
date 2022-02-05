@@ -7,4 +7,4 @@ mamba env create -n varcal -f environment.yml
 
 # Conda init
 conda init bash
-echo "Run `source ~/.bashrc` => to restart terminal"
+echo "Run 'source ~/.bashrc' => to restart terminal"
